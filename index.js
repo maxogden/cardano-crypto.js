@@ -1,5 +1,4 @@
 var bip39 = require('bip39-light')
-var scrypt = require('./vendor/scrypt-async/scrypt-async.min')
 
 var Module = require('./lib.js')
 var crc32 = require('./utils/crc32')
